@@ -1,4 +1,4 @@
-function Land = runSim(Land,duration,Ip,fuelType,simIndex)
+function Land = runSimWind(Land,duration,Ip,fuelType,simIndex)
 %runSim Run the simulation: Let fire start at specified point and let it burn 
 %for the specified amount of time
 
