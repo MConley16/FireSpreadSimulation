@@ -3,27 +3,29 @@ Determines effects of environmental and fuel characteristic performance measures
 
 Folders:
 
-  Figures - Area:
+     Figures display results of simulation 
+
+     Figures - Area:
   
-      Includes graphs displaying how the area burnt by the fire changes with each performance measure
+         Includes graphs displaying how the area burnt by the fire changes with each performance measure
       
-  Figures - Rate:
+      Figures - Rate:
   
-      Includes graphs displaying how the rate of spread of the fire changes with each performance measure
+         Includes graphs displaying how the rate of spread of the fire changes with each performance measure
       
-  Figures - Shape:
+      Figures - Shape:
   
-      Includes images/grids of the land burnt, what the shape of the fire looks like for the minimums and maximums for each performance measure
+         Includes images/grids of the land burnt, what the shape of the fire looks like for the minimums and maximums for each performance measure
       
-  FireAnimationVersion:
+      FireAnimationVersion:
   
-      Run script FireSpreadSim
+         Run script FireSpreadSim
       
-      Executes an animation of the fire burning through the land given the specified parameters
+         Executes an animation of the fire burning through the land given the specified parameters
       
-  StatisticsCollectionVersion:
+     StatisticsCollectionVersion:
   
-      FuelTypesVersion:
+         FuelTypesVersion:
       
-      WindVersion:
+         WindVersion:
       
