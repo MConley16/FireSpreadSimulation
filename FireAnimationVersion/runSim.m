@@ -97,40 +97,6 @@ for time = 1:duration
      pause(0.01)
 end
 
-% if(simIndex == 1)
-% figure(1)
-% image(LandStateImage)
-% end
-%                   
-% if(simIndex == 3)
-% figure(2)
-% image(LandStateImage)
-% end
-% 
-% if(simIndex == 5)
-% figure(3)
-% image(LandStateImage)
-% end
-%                   
-% if(simIndex == 7)
-% figure(4)
-% image(LandStateImage)
-% end
-
-% if(simIndex == 9)
-% figure(5)
-% image(LandStateImage)
-% end
-%                   
-% if(simIndex == 11)
-% figure(6)
-% image(LandStateImage)
-% end
-% 
-% if(simIndex == 13)
-% figure(7)
-% image(LandStateImage)
-% end
 
 
 end
