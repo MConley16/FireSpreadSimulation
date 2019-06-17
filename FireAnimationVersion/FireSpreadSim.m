@@ -32,9 +32,6 @@ Areas = (1:13);                 %Total area that fire has covered,
                                 %includes burning and burnt units
                                 %                                  ft^2
 simIndex = 0;
-%  for fuelType = 1:13
-%      simIndex = simIndex+1;  
-%      Area = 0;
 
         %% Performance Measures
         wSpeed = 38;                    %wind speed,                    ft/s
@@ -63,12 +60,7 @@ simIndex = 0;
                 R(RIndex) = 0;
             end
         end
-%         for RIndex = 1:8
-%             Rs(simIndex,RIndex) = Ip(RIndex)/Land(1,1).qsig;
-%             if(Rs(simIndex,RIndex) < 0)
-%                 Rs(simIndex,RIndex) = 0;
-%             end
-%         end
+
 
         %Starting coordinates set on fire 
         Land(x,y).state = "Burning";
@@ -95,34 +87,6 @@ simIndex = 0;
                 end
             end
         end
-%          Areas(simIndex) = Area;
-        %Area
-%  end
- 
-%   axes = (1:13);
-%   
-%   figure(1);
-%   hold on;
-%   Areas
-%   bar(Areas);
-%   xlabel('Fuel Type');
-%   ylabel('Area (ft^2)');
-%   title('Effect of Fuel Type on Area Burnt')
-%   hold off;
-%   
-%   figure(2);
-%   hold on ;
-%   %for plotIndex = 1:13
-%     bar(Rs(:,3));
-%     xlabel('Fuel Type');
-%     ylabel('Rate of Spread (ft^2/s)');
-%     title('Effect of Fuel Type on Rate of Spread in East Direction')
-%   %end  
-%    legend('R3/East','R2/Northeast','R3/East','R4/Southeast','R5/South','R6/Southwest','R7/West','R8/Northwest'); 
-%    hold off;
-% 
-%   Rs
-  
 
 
 
